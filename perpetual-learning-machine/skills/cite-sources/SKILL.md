@@ -1,3 +1,8 @@
+---
+name: cite-sources
+description: Attach a checkable source to every factual claim, or delete the claim.
+---
+
 # Cite sources
 
 Use when a draft contains a factual claim.

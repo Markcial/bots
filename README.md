@@ -1,7 +1,7 @@
 # bots
 Versioned source of my Grok Bot templates.
 
-Templates for Grok bots: description, skills, seed memories, routines, and a getting-started note. `catalog.json` is the machine-readable list a coordinator bot reads when it picks or recommends a template. Text here is generic. It holds no personal memories, contact details, or secrets.
+Templates for Grok bots: description, skills, seed memories, routines, and a getting-started note. `catalog.json` is the machine-readable list a coordinator bot reads when it picks or recommends a template. Installed bots fetch it at `https://raw.githubusercontent.com/Markcial/bots/main/catalog.json`. If that fetch fails, they ask for a paste or another URL. They do not invent entries. Text here is generic. It holds no personal memories, contact details, or secrets.
 
 ## Use a template
 
@@ -9,8 +9,8 @@ Templates for Grok bots: description, skills, seed memories, routines, and a get
 2. Replace every placeholder in `profile.md`, `getting-started.md`, `memories.md`, `routines.md`, and `skills/`.
 3. Add an object to `catalog.json` and a row to the catalog table below. Leave `xai_template_url` null until launch.
 4. Keep the stage at `sketch` until that stage's exit criteria are met.
-5. On x.ai, create the bot from `profile.md`, add each skill, paste `memories.md` as seed knowledge, and schedule every routine. Put the avatar and the motion presentation video in `media/` during `prepare`.
-6. Publish once, at `launch`, and only with that identity and motion video. Then set `xai_template_url`.
+5. This repo is the source of truth for the words. To install a shared template in Grok Bot, open `grokbot://app/v1/bot-template?id=<share id>`. How a share id is created is confirmed at launch. Until then, create the bot from `profile.md`, add each skill with its YAML frontmatter, paste `memories.md` as seed knowledge, and schedule every routine with its 5-field cron in the user's timezone. The routine delivers in that chat. Put the avatar and the motion presentation video in `media/` during `prepare`.
+6. Publish once, at `launch`, and only with that identity and motion video. Then set `xai_template_url`. A bot does not create another bot. It hands the user a draft and, when they have a share id, that same `grokbot://` link.
 
 Planned names in the table have no folder. Do not assign work to them and do not add them to `catalog.json`.
 
