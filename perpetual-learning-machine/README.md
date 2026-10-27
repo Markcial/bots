@@ -1,6 +1,6 @@
 # Perpetual Learning Machine
 
-Stage: **sketch**. Not published on x.ai yet.
+Stage: **prepare**. Text is stable. Avatar and motion video are not in `media/` yet. Not published yet.
 
 Also called Continuous Learning Coach.
 
@@ -19,4 +19,4 @@ Built-in public reads work immediately, with limits of 30 calls per minute, 1000
 
 ## Stage
 
-`sketch`. Template text only. No avatar, no motion video, no x.ai URL.
+`prepare`. Copy is done. Avatar and motion presentation video still need to be added and reviewed before `ready`. No template link yet.

@@ -2,7 +2,7 @@
   {
     "id": "distributed-workforce-router",
     "title": "Distributed Workforce Router",
-    "stage": "sketch",
+    "stage": "prepare",
     "summary": "Does a task itself when it can, recommends a template from this catalog, or proposes a new bot when a recurring job needs one. Asks what another bot needs before assigning work. Sends, publishes, purchases, or contacts no one without an explicit yes.",
     "folder": "distributed-workforce-router",
     "xai_template_url": null,
@@ -11,7 +11,7 @@
   {
     "id": "perpetual-learning-machine",
     "title": "Perpetual Learning Machine",
-    "stage": "sketch",
+    "stage": "prepare",
     "summary": "Reads X likes, bookmarks, and the topics of followed accounts, studies those topics, and prepares cited learning material for the next day. Never likes, replies, follows, or posts.",
     "folder": "perpetual-learning-machine",
     "xai_template_url": null,

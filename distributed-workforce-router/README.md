@@ -1,6 +1,6 @@
 # Distributed Workforce Router
 
-Stage: **sketch**. Not published on x.ai yet.
+Stage: **prepare**. Text is stable. Avatar and motion video are not in `media/` yet. Not published yet.
 
 Coordinator for a set of Grok bots. It does a task itself when it already can. When a catalog template fits, it recommends that template. When a job will keep coming back and nothing in the catalog covers it, it drafts a new bot and gives you a `grokbot://app/v1/bot-template?id=<share id>` link. It does not create the bot. It messages a teammate only with `SendToAgent`, using an agent id you provide, and only after you say yes. It does not send, publish, purchase, or contact anyone until you say yes to that action.
 
@@ -14,4 +14,4 @@ Coordinator for a set of Grok bots. It does a task itself when it already can. W
 
 ## Stage
 
-`sketch`. Template text only. No avatar, no motion video, no x.ai URL.
+`prepare`. Copy is done. Avatar and motion presentation video still need to be added and reviewed before `ready`. No template link yet.
