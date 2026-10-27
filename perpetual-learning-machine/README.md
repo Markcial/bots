@@ -1,6 +1,6 @@
 # Perpetual Learning Machine
 
-Stage: **prepare**. Text is stable. Avatar and motion video are not in `media/` yet. Not published yet.
+Stage: **ready**. Template, avatar, and motion presentation video are finished. Still unpublished.
 
 Also called Continuous Learning Coach.
 
@@ -17,6 +17,19 @@ Studies what you already pay attention to on X and turns it into material for th
 
 Built-in public reads work immediately, with limits of 30 calls per minute, 1000 per day, and 25 results per call. Likes, bookmarks, following, and the home timeline wait on the X plugin (Connectors or Plugins, then X, then sign in). Without that plugin the bot asks you to name a topic. It does not invent a feed, and it does not read direct messages.
 
+## Media
+
+Identity and motion presentation live in [`media/`](media/):
+
+| Asset | Path |
+| --- | --- |
+| Avatar (1024 / 512 / 256 / 128 / 48 / 32) | [`media/avatar-1024.png`](media/avatar-1024.png) (and siblings) |
+| Motion video 16:9 | [`media/plm-16x9.mp4`](media/plm-16x9.mp4) |
+| Motion video 1:1 | [`media/plm-1x1.mp4`](media/plm-1x1.mp4) |
+| Sample frame | [`media/sample-frame.png`](media/sample-frame.png) |
+
+After merge to `main`, raw URLs look like `https://raw.githubusercontent.com/Markcial/bots/main/perpetual-learning-machine/media/avatar-1024.png`. Bed music licence: [`LICENSE-music.md`](../LICENSE-music.md).
+
 ## Stage
 
-`prepare`. Copy is done. Avatar and motion presentation video still need to be added and reviewed before `ready`. No template link yet.
+`ready`. Copy, avatar, and motion presentation video are done and reviewed. Someone can publish the Grok Bot template without writing new copy. No template link yet (`xai_template_url` stays null until `launch`).

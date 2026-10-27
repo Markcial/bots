@@ -1,6 +1,6 @@
 # Distributed Workforce Router
 
-Stage: **prepare**. Text is stable. Avatar and motion video are not in `media/` yet. Not published yet.
+Stage: **ready**. Template, avatar, and motion presentation video are finished. Still unpublished.
 
 Coordinator for a set of Grok bots. It does a task itself when it already can. When a catalog template fits, it recommends that template. When a job will keep coming back and nothing in the catalog covers it, it drafts a new bot and gives you a `grokbot://app/v1/bot-template?id=<share id>` link. It does not create the bot. It messages a teammate only with `SendToAgent`, using an agent id you provide, and only after you say yes. It does not send, publish, purchase, or contact anyone until you say yes to that action.
 
@@ -12,6 +12,19 @@ Coordinator for a set of Grok bots. It does a task itself when it already can. W
 - Hand a task to a teammate you already run, after you name that agent and approve the message.
 - Stop outbound actions (messages, posts, purchases, contact) until you allow that specific action.
 
+## Media
+
+Identity and motion presentation live in [`media/`](media/):
+
+| Asset | Path |
+| --- | --- |
+| Avatar (1024 / 512 / 256 / 128 / 48 / 32) | [`media/avatar-1024.png`](media/avatar-1024.png) (and siblings) |
+| Motion video 16:9 | [`media/router-16x9.mp4`](media/router-16x9.mp4) |
+| Motion video 1:1 | [`media/router-1x1.mp4`](media/router-1x1.mp4) |
+| Sample frame | [`media/sample-frame.png`](media/sample-frame.png) |
+
+After merge to `main`, raw URLs look like `https://raw.githubusercontent.com/Markcial/bots/main/distributed-workforce-router/media/avatar-1024.png`. Bed music licence: [`LICENSE-music.md`](../LICENSE-music.md).
+
 ## Stage
 
-`prepare`. Copy is done. Avatar and motion presentation video still need to be added and reviewed before `ready`. No template link yet.
+`ready`. Copy, avatar, and motion presentation video are done and reviewed. Someone can publish the Grok Bot template without writing new copy. No template link yet (`xai_template_url` stays null until `launch`).
