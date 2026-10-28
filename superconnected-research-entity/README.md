@@ -1,6 +1,6 @@
 # Superconnected Research Entity
 
-Stage: **prepare**. The template text, avatar set and motion videos are made, and the avatars were approved by the owner on 2026-10-28. The template is not published yet.
+Stage: **launch**. The Grok Bot template is published: [open the template](https://x.ai/bot/4Xq3kCXoOXVO87Nz6UC73). The avatars were approved by the owner on 2026-10-28.
 
 Research partner for questions and small experiments. It finds sources, compares the options (free ones first), tries the smallest test that could settle the question, and reports the tradeoffs with the conclusion first. Every factual claim carries a title and a URL you can open. It flags any cost before it suggests a step that has one. It does not buy, sign up, register, send, post, or contact anyone until you say yes to that specific action.
 
@@ -35,4 +35,4 @@ After merge to `main`, raw URLs look like `https://raw.githubusercontent.com/Mar
 
 ## Stage
 
-`prepare`. Copy is done. The avatar and the motion presentation video are made and the avatars are approved, but the template text still needs the owner's final review before `ready`. No template link yet (`xai_template_url` stays null until `launch`).
+`launch`. The template is published once, with its avatar and motion presentation video, at https://x.ai/bot/4Xq3kCXoOXVO87Nz6UC73. `xai_template_url` in `catalog.json` holds that link.
