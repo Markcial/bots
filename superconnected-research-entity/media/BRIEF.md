@@ -1,6 +1,6 @@
 # Media brief: Superconnected Research Entity
 
-Status: **brief only**. No image or video has been made. Both are made during `prepare`, after the owner approves this brief. Nothing here is published.
+Status: **media made, avatars approved**. The avatar set, the 16:9 and 1:1 motion videos, and the sample frame are in this folder. The owner approved the avatars on 2026-10-28. Nothing is published. This brief stays as the record of what was asked for.
 
 ## Family look
 

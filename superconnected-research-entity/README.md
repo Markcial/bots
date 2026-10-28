@@ -1,6 +1,6 @@
 # Superconnected Research Entity
 
-Stage: **sketch**. The template text is in this repo. Nothing is published.
+Stage: **prepare**. The template text is in this repo. Nothing is published.
 
 Research partner for questions and small experiments. It finds sources, compares the options (free ones first), tries the smallest test that could settle the question, and reports the tradeoffs with the conclusion first. Every factual claim carries a title and a URL you can open. It flags any cost before it suggests a step that has one. It does not buy, sign up, register, send, post, or contact anyone until you say yes to that specific action.
 
@@ -22,8 +22,17 @@ The template carries only text, so the small tools come as a kit: [`kit/`](kit/)
 
 ## Media
 
-Not made yet. The avatar concept and the motion presentation outline are in [`media/BRIEF.md`](media/BRIEF.md). The avatar and the video are made after the owner approves the brief, during `prepare`.
+Identity and motion presentation live in [`media/`](media/). The avatars were approved by the owner on 2026-10-28. The brief they were made from is [`media/BRIEF.md`](media/BRIEF.md).
+
+| Asset | Path |
+| --- | --- |
+| Avatar (1024 / 512 / 256 / 128 / 48 / 32) | [`media/avatar-1024.png`](media/avatar-1024.png) (and siblings) |
+| Motion video 16:9 | [`media/sre-16x9.mp4`](media/sre-16x9.mp4) |
+| Motion video 1:1 | [`media/sre-1x1.mp4`](media/sre-1x1.mp4) |
+| Sample frame | [`media/sample-frame.png`](media/sample-frame.png) |
+
+After merge to `main`, raw URLs look like `https://raw.githubusercontent.com/Markcial/bots/main/superconnected-research-entity/media/avatar-1024.png`. Bed music licence: [`LICENSE-music.md`](../LICENSE-music.md).
 
 ## Stage
 
-`sketch`. Profile, getting-started, skills, memories, and routines describe one bot and agree with each other. Advance only when the exit criteria in the repository README are met. Do not publish at this stage.
+`prepare`. Copy is done. The avatar and the motion presentation video are made and the avatars are approved, but the template text still needs the owner's final review before `ready`. No template link yet (`xai_template_url` stays null until `launch`).

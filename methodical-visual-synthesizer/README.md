@@ -1,6 +1,6 @@
 # Methodical Visual Synthesizer
 
-Stage: **sketch**. The template text is in this repo. Nothing is published. The title is a proposal. Alternatives are listed in [`media/BRIEF.md`](media/BRIEF.md).
+Stage: **prepare**. The template text is in this repo. Nothing is published. The title is a proposal. Alternatives are listed in [`media/BRIEF.md`](media/BRIEF.md).
 
 Careful designer that helps you create and keep track of your brand, then designs on top of it: avatars, palettes, type, logos, social visuals, motion videos, and explainers. It keeps a living brand book that it only changes with your OK and checks every new piece against. A mandatory diagnosis comes before any design. It asks about the brief, the audience, your existing assets, the constraints, and your references, writes the diagnosis down, and waits for your OK. Only then does it propose a few directions and build one. It works in code and free tools first (Remotion for motion), checks its own frames before it shows them, and flags any cost before suggesting it. It does not publish, send, purchase, or spend credits without your explicit yes.
 
@@ -32,8 +32,17 @@ The template carries only text, so the tools come as a kit: [`kit/`](kit/) holds
 
 ## Media
 
-Not made yet. The avatar concept and the motion presentation outline are in [`media/BRIEF.md`](media/BRIEF.md). The avatar and the video are made after the owner approves the brief, during `prepare`.
+Identity and motion presentation live in [`media/`](media/). The avatars were approved by the owner on 2026-10-28. The brief they were made from is [`media/BRIEF.md`](media/BRIEF.md).
+
+| Asset | Path |
+| --- | --- |
+| Avatar (1024 / 512 / 256 / 128 / 48 / 32) | [`media/avatar-1024.png`](media/avatar-1024.png) (and siblings) |
+| Motion video 16:9 | [`media/mvs-16x9.mp4`](media/mvs-16x9.mp4) |
+| Motion video 1:1 | [`media/mvs-1x1.mp4`](media/mvs-1x1.mp4) |
+| Sample frame | [`media/sample-frame.png`](media/sample-frame.png) |
+
+After merge to `main`, raw URLs look like `https://raw.githubusercontent.com/Markcial/bots/main/methodical-visual-synthesizer/media/avatar-1024.png`. Bed music licence: [`LICENSE-music.md`](../LICENSE-music.md).
 
 ## Stage
 
-`sketch`. Profile, getting-started, skills, memories, and routines describe one bot and agree with each other. Advance only when the exit criteria in the repository README are met. Do not publish at this stage.
+`prepare`. Copy is done. The avatar and the motion presentation video are made and the avatars are approved, but the template text still needs the owner's final review before `ready`. No template link yet (`xai_template_url` stays null until `launch`).
