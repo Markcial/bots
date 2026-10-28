@@ -1,6 +1,6 @@
 # Perpetual Learning Machine
 
-Stage: **ready**. Template, avatar, and motion presentation video are finished. Still unpublished.
+Stage: **launch**. The Grok Bot template is published: [open the template](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO).
 
 Also called Continuous Learning Coach.
 
@@ -32,4 +32,4 @@ After merge to `main`, raw URLs look like `https://raw.githubusercontent.com/Mar
 
 ## Stage
 
-`ready`. Copy, avatar, and motion presentation video are done and reviewed. Someone can publish the Grok Bot template without writing new copy. No template link yet (`xai_template_url` stays null until `launch`).
+`launch`. The template is published once, with its avatar and motion presentation video, at https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO. `xai_template_url` in `catalog.json` holds that link.

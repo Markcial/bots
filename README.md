@@ -31,8 +31,8 @@ A bot moves one way: sketch, prepare, ready, launch. It launches only once, by p
 
 | Name | Stage | One-liner | Template |
 | --- | --- | --- | --- |
-| Distributed Workforce Router | ready | Does a task itself, recommends a catalog template, or proposes a new bot, and asks what the other bot needs before assigning work. Nothing is sent, published, purchased, or contacted without an explicit yes. | not published yet |
-| Perpetual Learning Machine | ready | Reads X likes, bookmarks, and follow topics, studies them, and prepares a cited digest for the next day. Never likes, replies, follows, or posts. | not published yet |
+| Distributed Workforce Router | launch | Does a task itself, recommends a catalog template, or proposes a new bot, and asks what the other bot needs before assigning work. Nothing is sent, published, purchased, or contacted without an explicit yes. | [Open template](https://x.ai/bot/79dGJd9FqqNXZZ773YhX8) |
+| Perpetual Learning Machine | launch | Reads X likes, bookmarks, and follow topics, studies them, and prepares a cited digest for the next day. Never likes, replies, follows, or posts. | [Open template](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO) |
 | Superconnected Research Entity | planned | Research and experiments. No folder yet. | not published yet |
 | Designer bot (title not set) | planned | Careful sketch. A mandatory diagnosis phase comes before any design. No folder yet. | not published yet |
 | Programmer bot (title not set) | planned | Careful sketch. A mandatory diagnosis phase comes before any code change. No folder yet. | not published yet |
