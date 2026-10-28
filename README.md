@@ -1,9 +1,99 @@
-# bots
-Versioned source of my Grok Bot templates.
+# Grok Bot templates
+
+A catalog of open Grok Bot templates you can copy, each with its own kit of scripts and starter files where the bot needs tools. Everything here is plain text and MIT-licensed, so you can read a bot before you install it and change it afterwards.
+
+Made by X [@_marc_garcia](https://x.com/_marc_garcia) (GitHub [Markcial](https://github.com/Markcial)). Motion reel: [pinned post on X](https://x.com/_marc_garcia/status/2113096742115614783).
+
+## The bots
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="distributed-workforce-router"><img src="distributed-workforce-router/media/avatar-256.png" width="128" height="128" alt="Distributed Workforce Router avatar"></a><br>
+<b><a href="distributed-workforce-router">Distributed Workforce Router</a></b><br>
+<img src="https://img.shields.io/badge/stage-launch-2ea44f" alt="stage: launch"><br>
+<sub>Coordinates your bots. Does the task itself, recommends a template from this catalog, or drafts a new bot for a job that keeps coming back.</sub><br>
+<a href="https://x.ai/bot/79dGJd9FqqNXZZ773YhX8">Use this template</a> · <a href="distributed-workforce-router/media/router-16x9.mp4">Video</a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="perpetual-learning-machine"><img src="perpetual-learning-machine/media/avatar-256.png" width="128" height="128" alt="Perpetual Learning Machine avatar"></a><br>
+<b><a href="perpetual-learning-machine">Perpetual Learning Machine</a></b><br>
+<img src="https://img.shields.io/badge/stage-launch-2ea44f" alt="stage: launch"><br>
+<sub>Studies what you already read on X and prepares a cited digest for the next day. It never writes to X.</sub><br>
+<a href="https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO">Use this template</a> · <a href="perpetual-learning-machine/media/plm-16x9.mp4">Video</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="superconnected-research-entity"><img src="superconnected-research-entity/media/avatar-256.png" width="128" height="128" alt="Superconnected Research Entity avatar"></a><br>
+<b><a href="superconnected-research-entity">Superconnected Research Entity</a></b><br>
+<img src="https://img.shields.io/badge/stage-prepare-d29922" alt="stage: prepare"><br>
+<sub>Researches a question, compares the free options, runs small experiments, and reports with a source for every claim.</sub><br>
+Template not published yet · <a href="superconnected-research-entity/media/sre-16x9.mp4">Video</a> · <a href="superconnected-research-entity/kit">Kit</a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="methodical-visual-synthesizer"><img src="methodical-visual-synthesizer/media/avatar-256.png" width="128" height="128" alt="Methodical Visual Synthesizer avatar"></a><br>
+<b><a href="methodical-visual-synthesizer">Methodical Visual Synthesizer</a></b><br>
+<img src="https://img.shields.io/badge/stage-prepare-d29922" alt="stage: prepare"><br>
+<sub>Helps you create and track your brand with a living brand book, then designs images, avatars, social visuals, motion videos and explainers.</sub><br>
+Template not published yet · <a href="methodical-visual-synthesizer/media/mvs-16x9.mp4">Video</a> · <a href="methodical-visual-synthesizer/kit">Kit</a>
+</td>
+</tr>
+</table>
+
+Stage `launch` means the template is published and has a link. Stage `prepare` means the text, avatar and videos exist, but the template is not published yet.
+
+## How a template works
+
+Every bot here follows the same three steps:
+
+1. **Diagnose.** Before it does real work, the bot asks what it needs to know and writes a short diagnosis.
+2. **Your OK.** It waits for you to approve or change that diagnosis. Silence is not approval.
+3. **Build.** Only then does it do the work, using free tools first. It tells you about any cost before it suggests a step that has one.
+
+Nothing is published, sent, bought or contacted without your explicit yes to that specific action. Templates hold no personal data, accounts or secrets.
+
+## Kits
+
+A template can carry only text. A bot that needs tools gets a **kit**: a `kit/` folder in this repo with `setup.sh`, `doctor.sh` (a self-check) and a README. On its first run the bot fetches only its own kit, asks before installing anything, runs the setup and the self-check, and shows you the result. Kits are free to run by default.
+
+| Bot | What the kit holds |
+| --- | --- |
+| [Methodical Visual Synthesizer](methodical-visual-synthesizer/kit) | Remotion project for 16:9 video from one JSON config, code-drawn avatars, free narration with a silent fallback, a music bed, a brand book template with a contrast and licence check, and a video QA script |
+| [Superconnected Research Entity](superconnected-research-entity/kit) | Experiment scaffold, report template, link checker, doctor |
+
+More detail is under [Kits (technical)](#kits-technical) below.
+
+## Try one
+
+- **Launched bots:** open [Distributed Workforce Router](https://x.ai/bot/79dGJd9FqqNXZZ773YhX8) or [Perpetual Learning Machine](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO) and follow the link to add it to your Grok Bot.
+- **Bots in `prepare`:** read the folder (`profile.md`, `getting-started.md`, `skills/`) and watch the video. They are not published yet, so there is no install link.
+- **Your own bot:** copy `_template/` and follow [Use a template](#use-a-template).
+
+## Stages
+
+A bot moves one way: **sketch** (the text is in this repo), **prepare** (the text is stable and the avatar and video are being made and reviewed), **ready** (everything is finished, still unpublished) and **launch** (the template is published once and gets a share link). The exit criteria for each stage are in [Pipeline](#pipeline).
+
+## Videos
+
+| Bot | 16:9 | 1:1 |
+| --- | --- | --- |
+| Distributed Workforce Router | [router-16x9.mp4](distributed-workforce-router/media/router-16x9.mp4) | [router-1x1.mp4](distributed-workforce-router/media/router-1x1.mp4) |
+| Perpetual Learning Machine | [plm-16x9.mp4](perpetual-learning-machine/media/plm-16x9.mp4) | [plm-1x1.mp4](perpetual-learning-machine/media/plm-1x1.mp4) |
+| Superconnected Research Entity | [sre-16x9.mp4](superconnected-research-entity/media/sre-16x9.mp4) | [sre-1x1.mp4](superconnected-research-entity/media/sre-1x1.mp4) |
+| Methodical Visual Synthesizer | [mvs-16x9.mp4](methodical-visual-synthesizer/media/mvs-16x9.mp4) | [mvs-1x1.mp4](methodical-visual-synthesizer/media/mvs-1x1.mp4) |
+
+Avatars and videos were made in code. The bed music licence is in [`LICENSE-music.md`](LICENSE-music.md).
+
+---
+
+## For maintainers
 
 Templates for Grok bots: description, skills, seed memories, routines, and a getting-started note. `catalog.json` is the machine-readable list a coordinator bot reads when it picks or recommends a template. Installed bots fetch it at `https://raw.githubusercontent.com/Markcial/bots/main/catalog.json`. If that fetch fails, they ask for a paste or another URL. They do not invent entries. Text here is generic. It holds no personal memories, contact details, or secrets.
 
-## Use a template
+Layout: one folder per bot (`profile.md`, `getting-started.md`, `memories.md`, `routines.md`, `skills/`, `media/`, and `kit/` where needed), plus `_template/`, `catalog.json` and `LICENSE`. The code and text are MIT-licensed ([`LICENSE`](LICENSE)); the bed music has its own terms in [`LICENSE-music.md`](LICENSE-music.md).
+
+### Use a template
 
 1. Copy `_template/` to a new folder. The folder name is the kebab-case form of the bot's three-word title (buzzword, domain, role), for example `distributed-workforce-router`.
 2. Replace every placeholder in `profile.md`, `getting-started.md`, `memories.md`, `routines.md`, and `skills/`.
@@ -14,7 +104,7 @@ Templates for Grok bots: description, skills, seed memories, routines, and a get
 
 Planned names in the table have no folder. Do not assign work to them and do not add them to `catalog.json`.
 
-## Kits
+### Kits (technical)
 
 A Grok Bot template carries only prose: the profile, seed memories, skill text, routines, and a getting-started note. It cannot carry files or scripts. So a bot that needs tools gets a **kit**: a `kit/` folder inside its template folder, in this public repo (MIT).
 
@@ -29,7 +119,7 @@ A Grok Bot template carries only prose: the profile, seed memories, skill text, 
 | Methodical Visual Synthesizer | [`methodical-visual-synthesizer/kit`](methodical-visual-synthesizer/kit) | Remotion project (16:9 video from one JSON config, code-drawn avatar still), free narration with silent fallback, built-in music bed with ducking, brand book template with contrast and licence check, video QA script (size, loudness), doctor clip and still |
 | Superconnected Research Entity | [`superconnected-research-entity/kit`](superconnected-research-entity/kit) | Experiment scaffold, report template, link checker, doctor |
 
-## Pipeline
+### Pipeline
 
 A bot moves one way: sketch, prepare, ready, launch. It launches only once, by publishing the Grok Bot template: a shareable `grokbot://app/v1/bot-template?id=<share id>` link, together with its identity (avatar) and a motion presentation video.
 
@@ -42,7 +132,7 @@ A bot moves one way: sketch, prepare, ready, launch. It launches only once, by p
 
 `catalog.json` fields: `id`, `title`, `stage`, `summary`, `folder`, `xai_template_url` (or null), `chains_with` (ids of templates that follow this one in a known sequence).
 
-## Catalog
+### Catalog
 
 | Name | Stage | One-liner | Template |
 | --- | --- | --- | --- |
