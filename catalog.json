@@ -16,5 +16,23 @@
     "folder": "perpetual-learning-machine",
     "xai_template_url": "https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO",
     "chains_with": []
+  },
+  {
+    "id": "superconnected-research-entity",
+    "title": "Superconnected Research Entity",
+    "stage": "sketch",
+    "summary": "Researches a question, compares the options (free first), runs small experiments, and reports the tradeoffs with a title and URL for every factual claim. Flags any cost before suggesting it. Buys, signs up, sends, or contacts no one without an explicit yes.",
+    "folder": "superconnected-research-entity",
+    "xai_template_url": null,
+    "chains_with": []
+  },
+  {
+    "id": "methodical-visual-synthesizer",
+    "title": "Methodical Visual Synthesizer",
+    "stage": "sketch",
+    "summary": "Helps you create and keep track of your brand with a living brand book, then designs on top of it with free tools and code first: images, avatars, social visuals, motion videos, explainers. A written diagnosis of the brief, audience, existing assets, constraints, and references, and the owner's OK, come before any design. Changes the brand book, publishes, sends, purchases, or spends credits only after an explicit yes.",
+    "folder": "methodical-visual-synthesizer",
+    "xai_template_url": null,
+    "chains_with": []
   }
 ]
