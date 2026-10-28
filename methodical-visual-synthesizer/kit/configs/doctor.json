@@ -1,0 +1,18 @@
+{
+  "project": "Kit Doctor",
+  "slug": "doctor",
+  "palette": { "primary": "#5FD0FF", "accent": "#E3F6FF", "background": "#0F1115" },
+  "avatar": { "motif": "triangle-arc" },
+  "voice": { "engine": "auto", "name": "Harper", "seed": 7 },
+  "music": { "mood": "soft" },
+  "scenes": [
+    {
+      "eyebrow": "Self-check",
+      "headline": "The toolchain works",
+      "accentWords": "works",
+      "narration": "The kit is ready.",
+      "visual": { "type": "avatar" }
+    }
+  ],
+  "closing": { "headline": "Ready to design.", "accentWords": "design.", "narration": "Ready.", "cta": "kit doctor" }
+}

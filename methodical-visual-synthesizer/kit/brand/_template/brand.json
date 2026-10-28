@@ -1,0 +1,142 @@
+{
+  "brand": "Example Brand",
+  "slug": "example-brand",
+  "version": 1,
+  "status": "draft",
+  "updated": "2026-01-01",
+  "palette": {
+    "primary": "#FF5FA8",
+    "accent": "#FFB3D6",
+    "background": "#14161B",
+    "ink": "#F5F7FA",
+    "surface": "#1E2128",
+    "onPrimary": "#14161B"
+  },
+  "roles": {
+    "primary": "main brand colour: one hero shape, buttons, highlighted words",
+    "accent": "secondary shape or a soft highlight; never body text",
+    "background": "default canvas",
+    "ink": "all body text and headlines",
+    "surface": "cards and panels on the background",
+    "onPrimary": "text on top of a primary-coloured shape"
+  },
+  "pairs": [
+    {
+      "fg": "ink",
+      "bg": "background",
+      "use": "body text and headlines",
+      "min": 4.5
+    },
+    {
+      "fg": "primary",
+      "bg": "background",
+      "use": "highlighted words and the hero shape",
+      "min": 3
+    },
+    {
+      "fg": "ink",
+      "bg": "surface",
+      "use": "text on cards",
+      "min": 4.5
+    },
+    {
+      "fg": "onPrimary",
+      "bg": "primary",
+      "use": "button and chip labels",
+      "min": 4.5
+    }
+  ],
+  "type": {
+    "heading": {
+      "family": "Inter",
+      "weight": 800,
+      "license": "SIL OFL 1.1",
+      "source": "https://github.com/rsms/inter",
+      "checked": "2026-01-01"
+    },
+    "body": {
+      "family": "Inter",
+      "weight": 500,
+      "license": "SIL OFL 1.1",
+      "source": "https://github.com/rsms/inter",
+      "checked": "2026-01-01"
+    },
+    "scale": "headline 45 characters or fewer; body 40 px or more at 1080p; captions 40 px"
+  },
+  "logo": {
+    "file": "assets/logo.svg",
+    "minSizePx": 32,
+    "clearSpace": "half the logo height on every side",
+    "onBackgrounds": "dark plate or a white plate; never on a busy photo",
+    "notes": "Original files only. Do not redraw the owner's logo by hand."
+  },
+  "avatar": {
+    "motif": "one object, one main colour, no text inside",
+    "minSizePx": 32,
+    "sizes": [
+      1024,
+      512,
+      256,
+      128,
+      48,
+      32
+    ],
+    "smallSizeRule": "at 64 px and below, drop fine detail and keep the one bright element",
+    "props": {
+      "motif": "beam",
+      "glow": "#FF5FA8",
+      "deep": "#C2185B",
+      "highlight": "#FFE0EE"
+    }
+  },
+  "voice": {
+    "tone": "plain, calm, specific; short sentences",
+    "words": [
+      "diagnose",
+      "build",
+      "check"
+    ],
+    "avoid": [
+      "revolutionary",
+      "game-changing",
+      "seamless"
+    ],
+    "pronounce": {}
+  },
+  "motion": {
+    "formats": [
+      "16:9 1920x1080 master",
+      "1:1 1080x1080",
+      "9:16 1080x1920 (larger top and bottom margins)"
+    ],
+    "fps": 30,
+    "easing": "springs for entrances, ease-in-out for moves; nothing bounces twice",
+    "pacing": "at least 3 seconds per idea in a short piece; time scenes to the narration",
+    "captions": "the exact written text, 44 characters per line or fewer, at the bottom; credits and lower thirds sit above them",
+    "music": "built-in procedural bed, ducked under the voice, about -14 LUFS and -1.5 dBTP"
+  },
+  "dos": [
+    "Use the palette tokens only.",
+    "Keep one hero element per frame.",
+    "Look at every deliverable at full size and at its smallest size."
+  ],
+  "donts": [
+    "No second accent colour.",
+    "No text inside the avatar.",
+    "No paid font or stock asset without the owner's yes."
+  ],
+  "references": [
+    {
+      "what": "Example reference the owner likes",
+      "why": "calm layout with one accent",
+      "link": ""
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-01-01",
+      "change": "Template created",
+      "approvedBy": "n/a (template)"
+    }
+  ]
+}

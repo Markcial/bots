@@ -1,0 +1,33 @@
+{
+  "project": "My Project",
+  "slug": "my-project",
+  "palette": { "primary": "#E6428C", "accent": "#FFB3D6", "background": "#0F1115", "ink": "#F5F7FA" },
+  "fonts": { "heading": "Inter", "body": "Inter", "headingWeight": 800 },
+  "avatar": { "motif": "triangle-arc", "glow": "#FF5FA8", "deep": "#C2185B", "highlight": "#FFE0EE" },
+  "voice": { "engine": "auto", "name": "Harper", "seed": 7 },
+  "music": { "mood": "soft", "gainDb": -9 },
+  "pronounce": {},
+  "subtitles": true,
+  "scenes": [
+    {
+      "eyebrow": "Intro",
+      "headline": "Say the one idea in a line",
+      "accentWords": "one idea",
+      "support": "A short supporting sentence.",
+      "narration": "Say the one idea in a sentence. Then show it.",
+      "visual": { "type": "avatar" }
+    },
+    {
+      "eyebrow": "How it works",
+      "headline": "Show the second point here",
+      "accentWords": "second point",
+      "narration": "Each scene has a headline, an optional eyebrow and support line, and one or two narrated sentences."
+    }
+  ],
+  "closing": {
+    "headline": "Name. One closing line.",
+    "accentWords": "line.",
+    "narration": "The closing card ends the video with the name and a call to action.",
+    "cta": "where to find it"
+  }
+}

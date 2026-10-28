@@ -1,0 +1,6 @@
+work/
+reports/*
+!reports/.gitkeep
+experiments/*
+!experiments/_template/
+!experiments/.gitkeep
