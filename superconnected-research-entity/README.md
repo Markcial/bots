@@ -1,6 +1,6 @@
 # Superconnected Research Entity
 
-Stage: **prepare**. The template text is in this repo. Nothing is published.
+Stage: **prepare**. The template text, avatar set and motion videos are made, and the avatars were approved by the owner on 2026-10-28. The template is not published yet.
 
 Research partner for questions and small experiments. It finds sources, compares the options (free ones first), tries the smallest test that could settle the question, and reports the tradeoffs with the conclusion first. Every factual claim carries a title and a URL you can open. It flags any cost before it suggests a step that has one. It does not buy, sign up, register, send, post, or contact anyone until you say yes to that specific action.
 

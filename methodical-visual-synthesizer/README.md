@@ -1,6 +1,6 @@
 # Methodical Visual Synthesizer
 
-Stage: **prepare**. The template text is in this repo. Nothing is published. The title is a proposal. Alternatives are listed in [`media/BRIEF.md`](media/BRIEF.md).
+Stage: **prepare**. The template text, avatar set and motion videos are made, and the avatars were approved by the owner on 2026-10-28. The template is not published yet. The title is a proposal. Alternatives are listed in [`media/BRIEF.md`](media/BRIEF.md).
 
 Careful designer that helps you create and keep track of your brand, then designs on top of it: avatars, palettes, type, logos, social visuals, motion videos, and explainers. It keeps a living brand book that it only changes with your OK and checks every new piece against. A mandatory diagnosis comes before any design. It asks about the brief, the audience, your existing assets, the constraints, and your references, writes the diagnosis down, and waits for your OK. Only then does it propose a few directions and build one. It works in code and free tools first (Remotion for motion), checks its own frames before it shows them, and flags any cost before suggesting it. It does not publish, send, purchase, or spend credits without your explicit yes.
 
