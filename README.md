@@ -19,7 +19,7 @@ Made by X [@_marc_garcia](https://x.com/_marc_garcia) (GitHub [Markcial](https:/
 <a href="perpetual-learning-machine"><img src="perpetual-learning-machine/media/avatar-256.png" width="128" height="128" alt="Perpetual Learning Machine avatar"></a><br>
 <b><a href="perpetual-learning-machine">Perpetual Learning Machine</a></b><br>
 <img src="https://img.shields.io/badge/stage-launch-2ea44f" alt="stage: launch"><br>
-<sub>Studies what you already read on X and prepares a cited digest for the next day. It never writes to X.</sub><br>
+<sub>Studies what you already read on X, teaches the strongest topic, and keeps every other open topic on a radar. It never writes to X.</sub><br>
 <a href="https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO">Use this template</a> · <a href="perpetual-learning-machine/media/plm-16x9.mp4">Video</a>
 </td>
 </tr>
@@ -137,7 +137,7 @@ A bot moves one way: sketch, prepare, ready, launch. It launches only once, by p
 | Name | Stage | One-liner | Template |
 | --- | --- | --- | --- |
 | Distributed Workforce Router | launch | Does a task itself, recommends a catalog template, or proposes a new bot, and asks what the other bot needs before assigning work. Nothing is sent, published, purchased, or contacted without an explicit yes. | [Open template](https://x.ai/bot/79dGJd9FqqNXZZ773YhX8) |
-| Perpetual Learning Machine | launch | Reads X likes, bookmarks, and follow topics, studies them, and prepares a cited digest for the next day. Never likes, replies, follows, or posts. | [Open template](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO) |
+| Perpetual Learning Machine | launch | Reads X likes, bookmarks, replies, posts, and follow topics into a backlog, teaches the strongest open topic, and lists every other open topic in a cited next-day digest. Never likes, replies, follows, or posts. | [Open template](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO) |
 | Superconnected Research Entity | prepare | Researches a question, compares the options (free first), runs small experiments, and reports the tradeoffs with a cited source for every claim. Flags any cost. Buys, signs up, sends, or contacts no one without an explicit yes. | not published yet |
 | Methodical Visual Synthesizer | prepare | Helps you create and track your brand (a living brand book) and designs on top of it: avatars, images, social visuals, motion videos, explainers. A mandatory diagnosis (brief, audience, existing assets, constraints, references) and your OK come before any design. Free tools and code first. Title is a proposal. | not published yet |
 | Programmer bot (title not set) | planned | Careful sketch. A mandatory diagnosis phase comes before any code change. No folder yet. | not published yet |
