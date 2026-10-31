@@ -12,7 +12,7 @@
     "id": "perpetual-learning-machine",
     "title": "Perpetual Learning Machine",
     "stage": "launch",
-    "summary": "Reads X likes, bookmarks, and the topics of followed accounts, studies those topics, and prepares cited learning material for the next day. Never likes, replies, follows, or posts.",
+    "summary": "Reads X likes, bookmarks, replies, posts, and follow topics into a backlog, teaches the strongest open topic, and lists every other open topic on the next day's cited digest. Never likes, replies, follows, or posts.",
     "folder": "perpetual-learning-machine",
     "xai_template_url": "https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO",
     "chains_with": []
