@@ -1,6 +1,6 @@
 # Computerized Audio Producer
 
-Stage: **prepare**. The template text, the avatar set and the kit (songs, narration, sound effects, checks) are made. The motion presentation video is still pending. The template is not published yet.
+Stage: **prepare**. The template text, the avatar set, the motion videos and the kit (songs, narration, sound effects, checks) are made. The template is not published yet.
 
 Cap is the audio desk for a team of bots. It turns finished scripts into narration with an open text-to-speech model (Phonon 31M on the CPU), makes songs, instrumentals and music beds with ACE-Step on a free Kaggle GPU, synthesises simple sound effects with ffmpeg, then mixes and normalises the result. It is free-only by default and checks every take before handing it over, with two takes per deliverable. It does not write scripts, make podcasts, clone real people's voices or handle live audio, and it never sends, publishes or buys anything without an explicit yes.
 
@@ -41,10 +41,11 @@ Identity and motion presentation live in [`media/`](media/). The brief is [`medi
 | Asset | Path |
 | --- | --- |
 | Avatar (1024 / 512 / 256 / 128 / 48 / 32) | [`media/avatar-1024.png`](media/avatar-1024.png) (and siblings) |
-| Motion video 16:9 | pending |
-| Motion video 1:1 | pending |
+| Motion video 16:9 | [`media/cap-16x9.mp4`](media/cap-16x9.mp4) |
+| Motion video 1:1 | [`media/cap-1x1.mp4`](media/cap-1x1.mp4) |
+| Sample frame | [`media/sample-frame.png`](media/sample-frame.png) |
 
-After merge to `main`, raw URLs look like `https://raw.githubusercontent.com/Markcial/bots/main/computerized-audio-producer/media/avatar-1024.png`.
+After merge to `main`, raw URLs look like `https://raw.githubusercontent.com/Markcial/bots/main/computerized-audio-producer/media/avatar-1024.png`. Bed music licence: [`LICENSE-music.md`](../LICENSE-music.md).
 
 ## For contributors: when you copy this
 
@@ -54,4 +55,4 @@ After merge to `main`, raw URLs look like `https://raw.githubusercontent.com/Mar
 
 ## Stage
 
-`prepare`. The text and the kit are made and tested, and the avatar is made. The motion presentation video is still to be made and reviewed before `ready`. No template link yet (`xai_template_url` stays null until `launch`).
+`prepare`. The text, the kit, the avatar and the motion videos are made. The owner reviews them before `ready`. No template link yet (`xai_template_url` stays null until `launch`).

@@ -93,7 +93,7 @@ A bot moves one way: **sketch** (the text is in this repo), **prepare** (the tex
 | Perpetual Learning Machine | [plm-16x9.mp4](perpetual-learning-machine/media/plm-16x9.mp4) | [plm-1x1.mp4](perpetual-learning-machine/media/plm-1x1.mp4) |
 | Superconnected Research Entity | [sre-16x9.mp4](superconnected-research-entity/media/sre-16x9.mp4) | [sre-1x1.mp4](superconnected-research-entity/media/sre-1x1.mp4) |
 | Methodical Visual Synthesizer | [mvs-16x9.mp4](methodical-visual-synthesizer/media/mvs-16x9.mp4) | [mvs-1x1.mp4](methodical-visual-synthesizer/media/mvs-1x1.mp4) |
-| Computerized Audio Producer | pending | pending |
+| Computerized Audio Producer | [cap-16x9.mp4](computerized-audio-producer/media/cap-16x9.mp4) | [cap-1x1.mp4](computerized-audio-producer/media/cap-1x1.mp4) |
 
 Avatars and videos were made in code. The bed music licence is in [`LICENSE-music.md`](LICENSE-music.md).
 
