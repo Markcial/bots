@@ -1,6 +1,6 @@
 # Computerized Audio Producer
 
-Stage: **ready**. The template text, the avatar set, the motion videos and the kit (songs, narration, sound effects, checks) are finished and reviewed. The template is not published yet.
+Stage: **launch**. The Grok Bot template is published: [open the template](https://x.ai/bot/0lo4RPTbCpF6hG9bMKTKE).
 
 Cap is the audio desk for a team of bots. It turns finished scripts into narration with an open text-to-speech model (Phonon 31M on the CPU), makes songs, instrumentals and music beds with ACE-Step on a free Kaggle GPU, synthesises simple sound effects with ffmpeg, then mixes and normalises the result. It is free-only by default and checks every take before handing it over, with two takes per deliverable. It does not write scripts, make podcasts, clone real people's voices or handle live audio, and it never sends, publishes or buys anything without an explicit yes.
 
@@ -30,7 +30,7 @@ If a tool is missing, Cap says which and offers a free way to add it.
 
 You need a **computer with a shell and internet access** (Linux, macOS, or Windows with WSL): Cap runs `ffmpeg`, Python and the Kaggle command line there. A bot with no computer can plan and write lyrics but cannot make audio.
 
-1. **Create the bot.** Not published yet, so until launch: in Grok Bot create a bot from [`profile.md`](profile.md), add each folder under [`skills/`](skills/) as a skill (with its frontmatter), paste [`memories.md`](memories.md) as seed knowledge, and create the routine in [`routines.md`](routines.md) with its cron in your timezone. After launch you open the template link from `catalog.json` (`xai_template_url`). See "How a template works" in the [root README](../README.md).
+1. **Create the bot.** [Open the template](https://x.ai/bot/0lo4RPTbCpF6hG9bMKTKE) and follow the link to add Cap to your Grok Bot. It brings the profile, skills, memories and routine with it. See "How a template works" in the [root README](../README.md).
 2. **Say `Set up your workspace.`** Cap tells you what it will install, asks for your yes, fetches only its [`kit/`](kit/) from this repo, runs `setup.sh` and `doctor.sh`, and shows you the result.
 3. **Kaggle (songs only), done by you.** A free account with a verified phone number, an API token from https://www.kaggle.com/settings/api, saved where the Kaggle command line reads it (`kaggle auth login`, or `~/.kaggle/access_token`, or `~/.kaggle/kaggle.json` with `chmod 600`, or the `KAGGLE_API_TOKEN` or `KAGGLE_USERNAME` and `KAGGLE_KEY` variables). Cap never asks for the token in chat and never stores it. Details: [`kit/README.md`](kit/README.md). Without Kaggle, Cap still does narration and sound effects, and says songs have to wait.
 
@@ -55,4 +55,4 @@ After merge to `main`, raw URLs look like `https://raw.githubusercontent.com/Mar
 
 ## Stage
 
-`ready`. The text, the kit, the avatar and the motion videos are finished and reviewed. Next is `launch`, once the template is published. No template link yet (`xai_template_url` stays null until `launch`).
+`launch`. The Grok Bot template is published: [Open template](https://x.ai/bot/0lo4RPTbCpF6hG9bMKTKE).
