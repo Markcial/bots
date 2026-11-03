@@ -1,0 +1,30 @@
+# Media brief: Computerized Audio Producer
+
+Status: **avatar made, motion video pending**. The avatar set is in this folder. The 16:9 and 1:1 videos and the sample frame are not made yet. Nothing is published.
+
+## Family look
+
+Match the other avatars in this repo. Each one is a single glass object with an inner glow, on a dark charcoal rounded square, lit from within, with soft bloom and a faint reflection below. One object, one colour, no text, no face, no mascot.
+
+## Avatar (done)
+
+- **Colour:** emerald. Accent `#34E39A`, with a deeper green for the glass and a near-white highlight. Background charcoal, the same rounded-square plate as the other avatars.
+- **Motif:** five layered glass panes in a row, seen at a slight angle, with one glowing waveform line running through all of them. Small rings mark a few points on the line. A soft green pool of light sits under the object.
+- **Concept in one line:** layers of glass with one emerald waveform passing through them, glowing on charcoal. The layers say "mixing", the waveform says "audio".
+- **Sizes:** 1024, 512, 256, 128, 48, 32 (`media/avatar-1024.png` and siblings).
+
+## Motion presentation (pending)
+
+Same format as the other videos in this repo: 1920×1080, 30 fps, h264 with AAC audio, 16:9, plus a 1:1 cut, about 30 to 36 seconds. Look: near-black background, a small numbered chip top left, the avatar on the left, a headline on the right in emerald and white, and a caption pill at the bottom that repeats the narration so the video works without sound. Built in code with the timings in data. Suggested beats:
+
+1. One brief in, finished audio out.
+2. Narration with an emotion for every line.
+3. Songs, beds and sound effects, free tools first.
+4. Two takes, and every take is checked against the script and for loudness.
+5. Nothing is sent, published or bought without your explicit yes.
+6. Ask Cap for a sound.
+
+- **Narration:** normal spelling in captions, no phonetic respelling.
+- **Music:** a soft procedural bed made in code, ducked under the voice, about -14 LUFS overall, with no sampled or third-party material (see [`LICENSE-music.md`](../../LICENSE-music.md)).
+- **Deliverables:** `media/cap-16x9.mp4`, `media/cap-1x1.mp4`, `media/sample-frame.png`.
+- **Tools:** free tools only. Any paid generation needs the owner's yes, with the cost stated first.
