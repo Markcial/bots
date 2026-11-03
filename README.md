@@ -39,9 +39,19 @@ Template not published yet · <a href="superconnected-research-entity/media/sre-
 Template not published yet · <a href="methodical-visual-synthesizer/media/mvs-16x9.mp4">Video</a> · <a href="methodical-visual-synthesizer/kit">Kit</a>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="computerized-audio-producer"><img src="computerized-audio-producer/media/avatar-256.png" width="128" height="128" alt="Computerized Audio Producer avatar"></a><br>
+<b><a href="computerized-audio-producer">Computerized Audio Producer</a></b><br>
+<img src="https://img.shields.io/badge/stage-prepare-d29922" alt="stage: prepare"><br>
+<sub>Makes narration with emotion, songs, music beds and sound effects, then mixes and loudness-checks them. Free tools first, two checked takes.</sub><br>
+Template not published yet · Video pending
+</td>
+<td width="50%" valign="top" align="center"></td>
+</tr>
 </table>
 
-Stage `launch` means the template is published and has a link. Stage `prepare` means the text, avatar and videos exist, but the template is not published yet.
+Stage `launch` means the template is published and has a link. Stage `prepare` means the text and avatar exist and the videos are made or being made, but the template is not published yet.
 
 ## How a template works
 
@@ -82,6 +92,7 @@ A bot moves one way: **sketch** (the text is in this repo), **prepare** (the tex
 | Perpetual Learning Machine | [plm-16x9.mp4](perpetual-learning-machine/media/plm-16x9.mp4) | [plm-1x1.mp4](perpetual-learning-machine/media/plm-1x1.mp4) |
 | Superconnected Research Entity | [sre-16x9.mp4](superconnected-research-entity/media/sre-16x9.mp4) | [sre-1x1.mp4](superconnected-research-entity/media/sre-1x1.mp4) |
 | Methodical Visual Synthesizer | [mvs-16x9.mp4](methodical-visual-synthesizer/media/mvs-16x9.mp4) | [mvs-1x1.mp4](methodical-visual-synthesizer/media/mvs-1x1.mp4) |
+| Computerized Audio Producer | pending | pending |
 
 Avatars and videos were made in code. The bed music licence is in [`LICENSE-music.md`](LICENSE-music.md).
 
@@ -140,11 +151,11 @@ A bot moves one way: sketch, prepare, ready, launch. It launches only once, by p
 | Perpetual Learning Machine | launch | Reads X likes, bookmarks, and follow topics, studies them, and prepares a cited digest for the next day. Never likes, replies, follows, or posts. | [Open template](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO) |
 | Superconnected Research Entity | prepare | Researches a question, compares the options (free first), runs small experiments, and reports the tradeoffs with a cited source for every claim. Flags any cost. Buys, signs up, sends, or contacts no one without an explicit yes. | not published yet |
 | Methodical Visual Synthesizer | prepare | Helps you create and track your brand (a living brand book) and designs on top of it: avatars, images, social visuals, motion videos, explainers. A mandatory diagnosis (brief, audience, existing assets, constraints, references) and your OK come before any design. Free tools and code first. Title is a proposal. | not published yet |
+| Computerized Audio Producer | prepare | Makes narration with emotion, songs and instrumentals, music beds and sound effects, then mixes and loudness-checks them. Free tools first, two takes per deliverable, each checked against the script or lyrics. A short diagnosis and your OK come before any audio. Sends, publishes, purchases, or contacts no one without an explicit yes. | not published yet |
 | Programmer bot (title not set) | planned | Careful sketch. A mandatory diagnosis phase comes before any code change. No folder yet. | not published yet |
 | Perpetual Narrative Weaver | planned | Scripts and storyboards. First step of the creative chain. No folder yet. | not published yet |
 | Distributed Character Sculptor | planned | Characters for those scripts. No folder yet. | not published yet |
 | Continuous Motion Composer | planned | Motion design for those characters. No folder yet. | not published yet |
-| Hyperconnected Audio Producer | planned | Audio and voice for that motion. No folder yet. | not published yet |
 | Animation bot (name TBD) | planned | Turns the chain into a finished piece. Name not chosen. No folder yet. | not published yet |
 
-The creative block, once those templates exist, runs in this order: Perpetual Narrative Weaver, Distributed Character Sculptor, Continuous Motion Composer, Hyperconnected Audio Producer, then the animation bot. Each hands its output to the next. They are not in `catalog.json` until they have folders.
+The creative block, once those templates exist, runs in this order: Perpetual Narrative Weaver, Distributed Character Sculptor, Continuous Motion Composer, Computerized Audio Producer, then the animation bot. Each hands its output to the next. They are not in `catalog.json` until they have folders.
