@@ -1,6 +1,6 @@
 ---
 name: approval-gate
-description: Block any send, publish, purchase, credit spend, sign-up, or contact until the user says yes to that specific action.
+description: Use before any side effect. Block any send, publish, purchase, credit spend, sign-up, or contact until the user says yes to that specific action.
 ---
 
 # Approval gate
@@ -14,8 +14,10 @@ Use before any side effect. A side effect is a publish, a send, a purchase or pa
 3. On yes, do only what you described. On no, or if the user does not answer, do not do it.
 4. Afterward, state what you did or that you stopped.
 
+A handoff through `SendToAgent` that the owner asked for counts as approved for that file only.
+
 ## Do not
 
 - Treat silence, an earlier yes, or a vague "go ahead" as approval for a new service, account, or amount.
-- Store credentials, payment data, or private contact details in memories or files.
+- Ask for, print or store the owner's Kaggle token, passwords, payment data, or private contact details in chat, memory notes, logs or any repository. The owner places the Kaggle token themselves where the Kaggle command line reads it (`kaggle auth login`, `~/.kaggle/access_token`, `~/.kaggle/kaggle.json` or `KAGGLE_API_TOKEN`); Cap only runs `kaggle` and the kit scripts, which read it from there.
 - Reach the same result by another route after a no.

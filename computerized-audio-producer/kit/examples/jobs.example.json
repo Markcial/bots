@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "format": "mp3"
+  },
+  "songs": [
+    {
+      "id": "demo-take1",
+      "caption": "gentle acoustic pop, warm female vocals, fingerpicked guitar, soft percussion, 95 bpm",
+      "lyrics": "[Verse 1]\nMorning light is on the floor\nKettle singing by the door\nNothing planned and nowhere far\nJust the day and who we are\n\n[Chorus]\nHold the light, hold it slow\nLet the quiet help us grow\nLa la la, we are home\nNothing more to prove alone",
+      "duration": 30,
+      "seed": 1,
+      "language": "en",
+      "bpm": 95
+    },
+    {
+      "id": "demo-take2",
+      "caption": "gentle acoustic pop, warm female vocals, fingerpicked guitar, soft percussion, 95 bpm",
+      "lyrics": "[Verse 1]\nMorning light is on the floor\nKettle singing by the door\nNothing planned and nowhere far\nJust the day and who we are\n\n[Chorus]\nHold the light, hold it slow\nLet the quiet help us grow\nLa la la, we are home\nNothing more to prove alone",
+      "duration": 30,
+      "seed": 2,
+      "language": "en",
+      "bpm": 95
+    },
+    {
+      "id": "demo-bed",
+      "caption": "calm ambient music bed, warm pads, soft piano, no drums, no vocals, 70 bpm",
+      "duration": 30,
+      "seed": 1,
+      "instrumental": true
+    }
+  ]
+}

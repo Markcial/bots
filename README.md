@@ -43,7 +43,7 @@ Template not published yet · <a href="methodical-visual-synthesizer/media/mvs-1
 <td width="50%" valign="top" align="center">
 <a href="computerized-audio-producer"><img src="computerized-audio-producer/media/avatar-256.png" width="128" height="128" alt="Computerized Audio Producer avatar"></a><br>
 <b><a href="computerized-audio-producer">Computerized Audio Producer</a></b><br>
-<img src="https://img.shields.io/badge/stage-prepare-d29922" alt="stage: prepare"><br>
+<img src="https://img.shields.io/badge/stage-ready-1f6feb" alt="stage: ready"><br>
 <sub>Makes narration with emotion, songs, music beds and sound effects, then mixes and loudness-checks them. Free tools first, two checked takes.</sub><br>
 Template not published yet · Video pending
 </td>
@@ -71,6 +71,7 @@ A template can carry only text. A bot that needs tools gets a **kit**: a `kit/` 
 | --- | --- |
 | [Methodical Visual Synthesizer](methodical-visual-synthesizer/kit) | Remotion project for 16:9 video from one JSON config, code-drawn avatars, free narration with a silent fallback, a music bed, a brand book template with a contrast and licence check, and a video QA script |
 | [Superconnected Research Entity](superconnected-research-entity/kit) | Experiment scaffold, report template, link checker, doctor |
+| [Computerized Audio Producer](computerized-audio-producer/kit) | Song maker for a free Kaggle GPU (ACE-Step 1.5, pinned version, T4 fix), take checker (duration, loudness, clipping, silence, optional lyrics score), setup and doctor |
 
 More detail is under [Kits (technical)](#kits-technical) below.
 
@@ -92,7 +93,7 @@ A bot moves one way: **sketch** (the text is in this repo), **prepare** (the tex
 | Perpetual Learning Machine | [plm-16x9.mp4](perpetual-learning-machine/media/plm-16x9.mp4) | [plm-1x1.mp4](perpetual-learning-machine/media/plm-1x1.mp4) |
 | Superconnected Research Entity | [sre-16x9.mp4](superconnected-research-entity/media/sre-16x9.mp4) | [sre-1x1.mp4](superconnected-research-entity/media/sre-1x1.mp4) |
 | Methodical Visual Synthesizer | [mvs-16x9.mp4](methodical-visual-synthesizer/media/mvs-16x9.mp4) | [mvs-1x1.mp4](methodical-visual-synthesizer/media/mvs-1x1.mp4) |
-| Computerized Audio Producer | pending | pending |
+| Computerized Audio Producer | [cap-16x9.mp4](computerized-audio-producer/media/cap-16x9.mp4) | [cap-1x1.mp4](computerized-audio-producer/media/cap-1x1.mp4) |
 
 Avatars and videos were made in code. The bed music licence is in [`LICENSE-music.md`](LICENSE-music.md).
 
@@ -129,6 +130,7 @@ A Grok Bot template carries only prose: the profile, seed memories, skill text, 
 | --- | --- | --- |
 | Methodical Visual Synthesizer | [`methodical-visual-synthesizer/kit`](methodical-visual-synthesizer/kit) | Remotion project (16:9 video from one JSON config, code-drawn avatar still), free narration with silent fallback, built-in music bed with ducking, brand book template with contrast and licence check, video QA script (size, loudness), doctor clip and still |
 | Superconnected Research Entity | [`superconnected-research-entity/kit`](superconnected-research-entity/kit) | Experiment scaffold, report template, link checker, doctor |
+| Computerized Audio Producer | [`computerized-audio-producer/kit`](computerized-audio-producer/kit) | `make_song.py` (private Kaggle T4 kernel, ACE-Step 1.5 at a pinned commit, bfloat16 fix, timeout, run tracking), `check_song.py` (ffmpeg checks and optional faster-whisper lyrics score), setup and doctor, example jobs |
 
 ### Pipeline
 
@@ -151,7 +153,7 @@ A bot moves one way: sketch, prepare, ready, launch. It launches only once, by p
 | Perpetual Learning Machine | launch | Reads X likes, bookmarks, and follow topics, studies them, and prepares a cited digest for the next day. Never likes, replies, follows, or posts. | [Open template](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO) |
 | Superconnected Research Entity | prepare | Researches a question, compares the options (free first), runs small experiments, and reports the tradeoffs with a cited source for every claim. Flags any cost. Buys, signs up, sends, or contacts no one without an explicit yes. | not published yet |
 | Methodical Visual Synthesizer | prepare | Helps you create and track your brand (a living brand book) and designs on top of it: avatars, images, social visuals, motion videos, explainers. A mandatory diagnosis (brief, audience, existing assets, constraints, references) and your OK come before any design. Free tools and code first. Title is a proposal. | not published yet |
-| Computerized Audio Producer | prepare | Makes narration with emotion, songs and instrumentals, music beds and sound effects, then mixes and loudness-checks them. Free tools first, two takes per deliverable, each checked against the script or lyrics. A short diagnosis and your OK come before any audio. Sends, publishes, purchases, or contacts no one without an explicit yes. | not published yet |
+| Computerized Audio Producer | ready | Makes narration, songs and instrumentals, music beds and sound effects, then mixes and loudness-checks them. Free tools first, two takes per deliverable, each checked against the script or lyrics. A short diagnosis and your OK come before any audio. Sends, publishes, purchases, or contacts no one without an explicit yes. | not published yet |
 | Programmer bot (title not set) | planned | Careful sketch. A mandatory diagnosis phase comes before any code change. No folder yet. | not published yet |
 | Perpetual Narrative Weaver | planned | Scripts and storyboards. First step of the creative chain. No folder yet. | not published yet |
 | Distributed Character Sculptor | planned | Characters for those scripts. No folder yet. | not published yet |
