@@ -31,7 +31,24 @@ if [ -z "$KG" ]; then fail "kaggle CLI missing (bash setup.sh)"
 elif KV=$($KG --version 2>&1); then pass "kaggle CLI: $(echo "$KV" | head -1)"
 else fail "kaggle CLI is installed but crashes at start (bash setup.sh reinstalls it with the missing 'six' package)"; fi
 if "$PYBIN" -c 'import faster_whisper' 2>/dev/null; then pass "faster-whisper importable"; else warn "faster-whisper missing: check_song.py --lyrics will not work (bash setup.sh)"; fi
+# Narration (optional): the ptts command, from .venv, the PATH or uvx
+PT=""; [ -x .venv/bin/ptts ] && PT=.venv/bin/ptts || { have ptts && PT=$(command -v ptts); }
+if [ -n "$PT" ] && PV=$("$PT" --version 2>&1); then pass "ptts for narration: $(echo "$PV" | head -1)"
+elif have uvx; then warn "ptts is not installed, but uvx is present: narrate.py will run 'uvx ptts' (first run downloads it)"
+else warn "ptts missing: narrate.py will not work (bash setup.sh, or install uv)"; fi
 [ "$FAIL" = 1 ] && { echo "DOCTOR FAIL: fix the tools first."; exit 1; }
+
+echo "-- sound effects and narration scripts (no network, nothing downloaded)"
+if "$PYBIN" make_sfx.py beep click --out-dir work/doctor-sfx >work/sfx.txt 2>&1; then
+  pass "make_sfx.py synthesises effects with this ffmpeg"
+else fail "make_sfx.py failed with this ffmpeg: $(tail -1 work/sfx.txt)"; fi
+rm -rf work/doctor-sfx
+printf 'This is a doctor test.\n' > work/doctor-script.txt
+if "$PYBIN" narrate.py --script work/doctor-script.txt --out work/doctor-narration --dry-run >work/narrate.txt 2>&1; then
+  pass "narrate.py reads a script and passes its licence guard (default model Phonon 31M, Apache-2.0)"
+else fail "narrate.py dry run failed: $(tail -1 work/narrate.txt)"; fi
+rm -f work/doctor-script.txt
+ffmpeg -hide_banner -encoders 2>/dev/null | grep -q libmp3lame && pass "ffmpeg can write MP3" || warn "ffmpeg has no MP3 encoder (libmp3lame): use --format wav"
 
 echo "-- credentials (presence only, never printed)"
 FOUND=0
@@ -91,6 +108,7 @@ if [ "$OFFLINE" = 1 ]; then warn "skipped (--offline)"; else
     [ "$(code "https://github.com/ace-step/ACE-Step-1.5/commit/$REF")" = 200 ] && pass "pinned ACE-Step commit ${REF:0:12} exists upstream" || warn "pinned ACE-Step commit ${REF:0:12} not found upstream"
   fi
   [ "$(code https://huggingface.co/ACE-Step/Ace-Step1.5)" = 200 ] && pass "model weights page reachable (no login needed)" || warn "huggingface.co model page not reachable from here"
+  [ "$(code https://huggingface.co/gradium/phonon-31m-en)" = 200 ] && pass "Phonon 31M voice model page reachable (narration downloads from here on first use)" || warn "huggingface.co/gradium/phonon-31m-en not reachable: narrate.py cannot download the voice model"
 fi
 
 echo "-- note"

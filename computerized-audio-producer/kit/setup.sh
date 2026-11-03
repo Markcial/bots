@@ -1,16 +1,19 @@
 #!/usr/bin/env bash
 # Computerized Audio Producer kit: set up the tools. Safe to run again (idempotent).
-#   bash setup.sh               check the tools, create .venv with the Kaggle CLI and faster-whisper
-#   bash setup.sh --no-whisper  skip faster-whisper (no speech-to-text lyrics check)
+#   bash setup.sh               check the tools, create .venv with the Kaggle CLI, faster-whisper and ptts
+#   bash setup.sh --no-whisper  skip faster-whisper (no speech-to-text lyrics or narration check)
+#   bash setup.sh --no-tts      skip ptts (no narration with narrate.py)
 # Writes only inside this folder (.venv, work). It never reads, creates or changes Kaggle credentials,
 # and it installs nothing system-wide. Free: no account or key is needed for this step.
 set -u
 cd "$(dirname "$0")" || exit 1
 WHISPER=1
+TTS=1
 for a in "$@"; do
   case "$a" in
     --no-whisper) WHISPER=0 ;;
-    -h|--help) sed -n '2,6p' "$0"; exit 0 ;;
+    --no-tts) TTS=0 ;;
+    -h|--help) sed -n '2,7p' "$0"; exit 0 ;;
     *) echo "unknown option: $a"; exit 2 ;;
   esac
 done
@@ -51,6 +54,14 @@ if [ -n "$PY" ]; then
     if [ "$WHISPER" = 1 ]; then
       if .venv/bin/python -m pip install -q faster-whisper >/dev/null 2>&1; then ok "faster-whisper installed (the model downloads on first use, free)"; else opt "faster-whisper did not install: the lyrics check will be skipped. Retry: bash setup.sh"; fi
     else opt "faster-whisper skipped (--no-whisper)"; fi
+    if [ "$TTS" = 1 ]; then
+      # ptts runs the Phonon text-to-speech model on the CPU. The wheel has no weights: the default model
+      # (Phonon 31M, Apache-2.0, about 60 MB) downloads on first use from Hugging Face, no login.
+      if .venv/bin/python -m pip install -q ptts >/dev/null 2>&1 && PV=$(.venv/bin/ptts --version 2>&1) && [ -n "$PV" ]; then
+        ok "$PV (narrate.py uses it; the voice model downloads on first use, free)"
+      elif have uvx; then opt "ptts did not install here, but uvx is present: narrate.py will run it with 'uvx ptts'"
+      else opt "ptts did not install: narrate.py will not work. Install uv (https://docs.astral.sh/uv/) or retry: bash setup.sh"; fi
+    else opt "ptts skipped (--no-tts)"; fi
   fi
 fi
 mkdir -p work && ok "work/ (scratch)"

@@ -1,6 +1,6 @@
 ---
 name: setup-workspace
-description: First run: fetch this bot's own kit (song maker, take checker, doctor) from the public repo onto your computer, run setup and the self-check, tell the owner what is left to do for Kaggle, and save the workspace path as a memory note.
+description: First run: fetch this bot's own kit (song maker, narration, sound effects, take checker, doctor) from the public repo onto your computer, run setup and the self-check, tell the owner what is left to do for Kaggle, and save the workspace path as a memory note.
 ---
 
 # Set up the workspace
