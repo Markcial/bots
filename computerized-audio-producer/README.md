@@ -1,6 +1,6 @@
 # Computerized Audio Producer
 
-Stage: **prepare**. The template text, the avatar set, the motion videos and the kit (songs, narration, sound effects, checks) are made. The template is not published yet.
+Stage: **ready**. The template text, the avatar set, the motion videos and the kit (songs, narration, sound effects, checks) are finished and reviewed. The template is not published yet.
 
 Cap is the audio desk for a team of bots. It turns finished scripts into narration with an open text-to-speech model (Phonon 31M on the CPU), makes songs, instrumentals and music beds with ACE-Step on a free Kaggle GPU, synthesises simple sound effects with ffmpeg, then mixes and normalises the result. It is free-only by default and checks every take before handing it over, with two takes per deliverable. It does not write scripts, make podcasts, clone real people's voices or handle live audio, and it never sends, publishes or buys anything without an explicit yes.
 
@@ -55,4 +55,4 @@ After merge to `main`, raw URLs look like `https://raw.githubusercontent.com/Mar
 
 ## Stage
 
-`prepare`. The text, the kit, the avatar and the motion videos are made. The owner reviews them before `ready`. No template link yet (`xai_template_url` stays null until `launch`).
+`ready`. The text, the kit, the avatar and the motion videos are finished and reviewed. Next is `launch`, once the template is published. No template link yet (`xai_template_url` stays null until `launch`).
