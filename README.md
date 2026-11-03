@@ -43,9 +43,9 @@ Template not published yet · <a href="methodical-visual-synthesizer/media/mvs-1
 <td width="50%" valign="top" align="center">
 <a href="computerized-audio-producer"><img src="computerized-audio-producer/media/avatar-256.png" width="128" height="128" alt="Computerized Audio Producer avatar"></a><br>
 <b><a href="computerized-audio-producer">Computerized Audio Producer</a></b><br>
-<img src="https://img.shields.io/badge/stage-ready-1f6feb" alt="stage: ready"><br>
-<sub>Makes narration with emotion, songs, music beds and sound effects, then mixes and loudness-checks them. Free tools first, two checked takes.</sub><br>
-Template not published yet · Video pending
+<img src="https://img.shields.io/badge/stage-launch-2ea44f" alt="stage: launch"><br>
+<sub>Makes narration in stock voices, songs, music beds and sound effects, then mixes and loudness-checks them. Free tools first, two checked takes.</sub><br>
+<a href="https://x.ai/bot/0lo4RPTbCpF6hG9bMKTKE">Use this template</a> · <a href="computerized-audio-producer/media/cap-16x9.mp4">Video</a>
 </td>
 <td width="50%" valign="top" align="center"></td>
 </tr>
@@ -71,13 +71,13 @@ A template can carry only text. A bot that needs tools gets a **kit**: a `kit/` 
 | --- | --- |
 | [Methodical Visual Synthesizer](methodical-visual-synthesizer/kit) | Remotion project for 16:9 video from one JSON config, code-drawn avatars, free narration with a silent fallback, a music bed, a brand book template with a contrast and licence check, and a video QA script |
 | [Superconnected Research Entity](superconnected-research-entity/kit) | Experiment scaffold, report template, link checker, doctor |
-| [Computerized Audio Producer](computerized-audio-producer/kit) | Song maker for a free Kaggle GPU (ACE-Step 1.5, pinned version, T4 fix), take checker (duration, loudness, clipping, silence, optional lyrics score), setup and doctor |
+| [Computerized Audio Producer](computerized-audio-producer/kit) | Song maker for a free Kaggle GPU (ACE-Step 1.5, pinned version, T4 fix), take checker (duration, loudness, clipping, silence, optional lyrics score), narration (Phonon 31M) and ffmpeg sound effects, setup and doctor |
 
 More detail is under [Kits (technical)](#kits-technical) below.
 
 ## Try one
 
-- **Launched bots:** open [Distributed Workforce Router](https://x.ai/bot/79dGJd9FqqNXZZ773YhX8) or [Perpetual Learning Machine](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO) and follow the link to add it to your Grok Bot.
+- **Launched bots:** open [Distributed Workforce Router](https://x.ai/bot/79dGJd9FqqNXZZ773YhX8), [Perpetual Learning Machine](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO) or [Computerized Audio Producer](https://x.ai/bot/0lo4RPTbCpF6hG9bMKTKE) and follow the link to add it to your Grok Bot.
 - **Bots in `prepare`:** read the folder (`profile.md`, `getting-started.md`, `skills/`) and watch the video. They are not published yet, so there is no install link.
 - **Your own bot:** copy `_template/` and follow [Use a template](#use-a-template).
 
@@ -153,7 +153,7 @@ A bot moves one way: sketch, prepare, ready, launch. It launches only once, by p
 | Perpetual Learning Machine | launch | Reads X likes, bookmarks, and follow topics, studies them, and prepares a cited digest for the next day. Never likes, replies, follows, or posts. | [Open template](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO) |
 | Superconnected Research Entity | prepare | Researches a question, compares the options (free first), runs small experiments, and reports the tradeoffs with a cited source for every claim. Flags any cost. Buys, signs up, sends, or contacts no one without an explicit yes. | not published yet |
 | Methodical Visual Synthesizer | prepare | Helps you create and track your brand (a living brand book) and designs on top of it: avatars, images, social visuals, motion videos, explainers. A mandatory diagnosis (brief, audience, existing assets, constraints, references) and your OK come before any design. Free tools and code first. Title is a proposal. | not published yet |
-| Computerized Audio Producer | ready | Makes narration, songs and instrumentals, music beds and sound effects, then mixes and loudness-checks them. Free tools first, two takes per deliverable, each checked against the script or lyrics. A short diagnosis and your OK come before any audio. Sends, publishes, purchases, or contacts no one without an explicit yes. | not published yet |
+| Computerized Audio Producer | launch | Makes narration, songs and instrumentals, music beds and sound effects, then mixes and loudness-checks them. Free tools first, two takes per deliverable, each checked against the script or lyrics. A short diagnosis and your OK come before any audio. Sends, publishes, purchases, or contacts no one without an explicit yes. | [Open template](https://x.ai/bot/0lo4RPTbCpF6hG9bMKTKE) |
 | Programmer bot (title not set) | planned | Careful sketch. A mandatory diagnosis phase comes before any code change. No folder yet. | not published yet |
 | Perpetual Narrative Weaver | planned | Scripts and storyboards. First step of the creative chain. No folder yet. | not published yet |
 | Distributed Character Sculptor | planned | Characters for those scripts. No folder yet. | not published yet |
