@@ -1,0 +1,14 @@
+# Local environment, outputs and credentials. Never commit any of these.
+.venv/
+runs/
+work/
+out/
+songs/
+*.mp3
+*.wav
+*.flac
+__pycache__/
+.kaggle/
+kaggle.json
+access_token
+*.token
