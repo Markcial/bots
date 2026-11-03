@@ -39,7 +39,7 @@
     "id": "computerized-audio-producer",
     "title": "Computerized Audio Producer",
     "stage": "prepare",
-    "summary": "Makes the sound for your projects: narration with emotion, songs and instrumentals, music beds and sound effects, mixed and loudness-checked. Free tools first, two takes per deliverable, and every take is checked against the script or lyrics and for loudness before it is handed over. A short diagnosis and the owner's OK come before any audio is made. Sends, publishes, purchases, or contacts no one without an explicit yes.",
+    "summary": "Makes the sound for your projects: narration, songs and instrumentals, music beds and sound effects, mixed and loudness-checked. Free tools first, two takes per deliverable, and every take is checked against the script or lyrics and for loudness before it is handed over. A short diagnosis and the owner's OK come before any audio is made. Sends, publishes, purchases, or contacts no one without an explicit yes.",
     "folder": "computerized-audio-producer",
     "xai_template_url": null,
     "chains_with": []
