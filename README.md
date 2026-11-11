@@ -79,6 +79,7 @@ More detail is under [Kits (technical)](#kits-technical) below.
 
 - **Launched bots:** open [Distributed Workforce Router](https://x.ai/bot/79dGJd9FqqNXZZ773YhX8), [Perpetual Learning Machine](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO) or [Computerized Audio Producer](https://x.ai/bot/0lo4RPTbCpF6hG9bMKTKE) and follow the link to add it to your Grok Bot.
 - **Bots in `prepare`:** read the folder (`profile.md`, `getting-started.md`, `skills/`) and watch the video. They are not published yet, so there is no install link.
+- **Bots in `sketch`:** read the folder ([Continuous Motion Composer](continuous-motion-composer): `profile.md`, `getting-started.md`, `skills/`). The text is in this repo. There is no avatar, video or install link yet. <img src="https://img.shields.io/badge/stage-sketch-8b949e" alt="stage: sketch">
 - **Your own bot:** copy `_template/` and follow [Use a template](#use-a-template).
 
 ## Stages
@@ -157,7 +158,7 @@ A bot moves one way: sketch, prepare, ready, launch. It launches only once, by p
 | Programmer bot (title not set) | planned | Careful sketch. A mandatory diagnosis phase comes before any code change. No folder yet. | not published yet |
 | Perpetual Narrative Weaver | planned | Scripts and storyboards. First step of the creative chain. No folder yet. | not published yet |
 | Distributed Character Sculptor | planned | Characters for those scripts. No folder yet. | not published yet |
-| Continuous Motion Composer | planned | Motion design for those characters. No folder yet. | not published yet |
+| Continuous Motion Composer | sketch | Motion design for scripts and characters: a diagnosis, storyboard and style frames before any animation. Remotion and free tools first. Nothing is published, sent or bought without an explicit yes. | not published yet |
 | Animation bot (name TBD) | planned | Turns the chain into a finished piece. Name not chosen. No folder yet. | not published yet |
 
-The creative block, once those templates exist, runs in this order: Perpetual Narrative Weaver, Distributed Character Sculptor, Continuous Motion Composer, Computerized Audio Producer, then the animation bot. Each hands its output to the next. They are not in `catalog.json` until they have folders.
+The creative block, once those templates exist, runs in this order: Perpetual Narrative Weaver, Distributed Character Sculptor, Continuous Motion Composer, Computerized Audio Producer, then the animation bot. Each hands its output to the next. Names still marked planned have no folder and are not in `catalog.json`.

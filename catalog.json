@@ -43,5 +43,16 @@
     "folder": "computerized-audio-producer",
     "xai_template_url": "https://x.ai/bot/0lo4RPTbCpF6hG9bMKTKE",
     "chains_with": []
+  },
+  {
+    "id": "continuous-motion-composer",
+    "title": "Continuous Motion Composer",
+    "stage": "sketch",
+    "summary": "Composes short motion pieces from a brief, a script and any characters or assets you already have. A written diagnosis, an approved storyboard and style frames come before any animation. Remotion and other free, code-first tools are the default. Flags the cost of any paid video tool before suggesting one. Publishes, sends, or purchases nothing without an explicit yes.",
+    "folder": "continuous-motion-composer",
+    "xai_template_url": null,
+    "chains_with": [
+      "computerized-audio-producer"
+    ]
   }
 ]
