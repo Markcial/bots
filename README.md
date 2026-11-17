@@ -2,7 +2,7 @@
 
 A catalog of open Grok Bot templates you can copy, each with its own kit of scripts and starter files where the bot needs tools. Everything here is plain text and MIT-licensed, so you can read a bot before you install it and change it afterwards.
 
-Made by X [@_marc_garcia](https://x.com/_marc_garcia) (GitHub [Markcial](https://github.com/Markcial)). Motion reel: [pinned post on X](https://x.com/_marc_garcia/status/2113096742115614783).
+Made by X [@marc_garcia](https://x.com/marc_garcia) (GitHub [Markcial](https://github.com/Markcial)). Motion reel: [pinned post on X](https://x.com/marc_garcia/status/2113096742115614783).
 
 ## The bots
 

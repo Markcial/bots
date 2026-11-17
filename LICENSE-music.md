@@ -10,7 +10,7 @@ The lofi / ambient bed embedded in the motion presentation videos under
 
 ## Rights
 
-You (Marc Garcia Sastre / @_marc_garcia) and anyone you authorize may use,
+You (Marc Garcia Sastre / @marc_garcia) and anyone you authorize may use,
 modify, redistribute, and monetize this music **commercially**, including on
 YouTube, X, LinkedIn, Grok Bot template pages, and client work, without
 attribution and without royalty.
