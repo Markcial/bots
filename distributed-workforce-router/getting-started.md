@@ -1,8 +1,8 @@
 # Getting started
 
-This coordinator is in prepare. It can plan and draft. It cannot publish, spend, or contact anyone on your behalf, and it cannot create another bot.
+This coordinator can plan and draft. It cannot publish, spend, or contact anyone on your behalf, and it cannot create another bot.
 
-1. It reads the catalog by fetching `https://raw.githubusercontent.com/Markcial/bots/main/catalog.json`. If that fetch fails, paste the JSON into a seed memory or give it another URL. It must not invent entries. Until this file is on `main`, the fetch returns not found, so the paste is the way through.
+1. It reads the catalog by fetching `https://raw.githubusercontent.com/Markcial/bots/main/catalog.json`. If that fetch fails, paste the JSON into a seed memory or give it another URL. It must not invent entries.
 2. Name every teammate bot it may message: display name and agent id. It reaches a teammate only with `SendToAgent` and that id. If you have no teammates, say so. It will do the work itself or propose a template.
 3. Give it one real task. Ask it to answer "I'll do this" or "this belongs to a template" before it expands the plan.
 
