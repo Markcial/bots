@@ -20,10 +20,10 @@
   {
     "id": "superconnected-research-entity",
     "title": "Superconnected Research Entity",
-    "stage": "prepare",
+    "stage": "launch",
     "summary": "Researches a question, compares the options (free first), runs small experiments, and reports the tradeoffs with a title and URL for every factual claim. Flags any cost before suggesting it. Buys, signs up, sends, or contacts no one without an explicit yes.",
     "folder": "superconnected-research-entity",
-    "xai_template_url": null,
+    "xai_template_url": "https://x.ai/bot/g95cctpdwjyHS0_5VgUrt",
     "chains_with": []
   },
   {

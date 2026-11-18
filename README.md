@@ -27,9 +27,9 @@ Made by X [@marc_garcia](https://x.com/marc_garcia) (GitHub [Markcial](https://g
 <td width="50%" valign="top" align="center">
 <a href="superconnected-research-entity"><img src="superconnected-research-entity/media/avatar-256.png" width="128" height="128" alt="Superconnected Research Entity avatar"></a><br>
 <b><a href="superconnected-research-entity">Superconnected Research Entity</a></b><br>
-<img src="https://img.shields.io/badge/stage-prepare-d29922" alt="stage: prepare"><br>
+<img src="https://img.shields.io/badge/stage-launch-2ea44f" alt="stage: launch"><br>
 <sub>Researches a question, compares the free options, runs small experiments, and reports with a source for every claim.</sub><br>
-Template not published yet · <a href="superconnected-research-entity/media/sre-16x9.mp4">Video</a> · <a href="superconnected-research-entity/kit">Kit</a>
+<a href="https://x.ai/bot/g95cctpdwjyHS0_5VgUrt">Use this template</a> · <a href="superconnected-research-entity/media/sre-16x9.mp4">Video</a> · <a href="superconnected-research-entity/kit">Kit</a>
 </td>
 <td width="50%" valign="top" align="center">
 <a href="methodical-visual-synthesizer"><img src="methodical-visual-synthesizer/media/avatar-256.png" width="128" height="128" alt="Methodical Visual Synthesizer avatar"></a><br>
@@ -77,7 +77,7 @@ More detail is under [Kits (technical)](#kits-technical) below.
 
 ## Try one
 
-- **Launched bots:** open [Distributed Workforce Router](https://x.ai/bot/9IiZ8vVMzkX4O2OFILHN7), [Perpetual Learning Machine](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO), [Methodical Visual Synthesizer](https://x.ai/bot/E3z2Ks_n4DruuX9e3x7ao) or [Computerized Audio Producer](https://x.ai/bot/0lo4RPTbCpF6hG9bMKTKE) and follow the link to add it to your Grok Bot.
+- **Launched bots:** open [Distributed Workforce Router](https://x.ai/bot/9IiZ8vVMzkX4O2OFILHN7), [Perpetual Learning Machine](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO), [Superconnected Research Entity](https://x.ai/bot/g95cctpdwjyHS0_5VgUrt), [Methodical Visual Synthesizer](https://x.ai/bot/E3z2Ks_n4DruuX9e3x7ao) or [Computerized Audio Producer](https://x.ai/bot/0lo4RPTbCpF6hG9bMKTKE) and follow the link to add it to your Grok Bot.
 - **Bots in `prepare`:** read the folder (`profile.md`, `getting-started.md`, `skills/`) and watch the video. They are not published yet, so there is no install link.
 - **Your own bot:** copy `_template/` and follow [Use a template](#use-a-template).
 
@@ -151,7 +151,7 @@ A bot moves one way: sketch, prepare, ready, launch. It launches only once, by p
 | --- | --- | --- | --- |
 | Distributed Workforce Router | launch | Does a task itself, recommends a catalog template, or proposes a new bot, and asks what the other bot needs before assigning work. Nothing is sent, published, purchased, or contacted without an explicit yes. | [Open template](https://x.ai/bot/9IiZ8vVMzkX4O2OFILHN7) |
 | Perpetual Learning Machine | launch | Reads X likes, bookmarks, and follow topics, studies them, and prepares a cited digest for the next day. Never likes, replies, follows, or posts. | [Open template](https://x.ai/bot/PsppjjXTB3Ggf0YmCTlNO) |
-| Superconnected Research Entity | prepare | Researches a question, compares the options (free first), runs small experiments, and reports the tradeoffs with a cited source for every claim. Flags any cost. Buys, signs up, sends, or contacts no one without an explicit yes. | not published yet |
+| Superconnected Research Entity | launch | Researches a question, compares the options (free first), runs small experiments, and reports the tradeoffs with a cited source for every claim. Flags any cost. Buys, signs up, sends, or contacts no one without an explicit yes. | [Open template](https://x.ai/bot/g95cctpdwjyHS0_5VgUrt) |
 | Methodical Visual Synthesizer | launch | Helps you create and track your brand (a living brand book) and designs on top of it: avatars, images, social visuals, motion videos, explainers. A mandatory diagnosis (brief, audience, existing assets, constraints, references) and your OK come before any design. Free tools and code first. | [Open template](https://x.ai/bot/E3z2Ks_n4DruuX9e3x7ao) |
 | Computerized Audio Producer | launch | Makes narration, songs and instrumentals, music beds and sound effects, then mixes and loudness-checks them. Free tools first, two takes per deliverable, each checked against the script or lyrics. A short diagnosis and your OK come before any audio. Sends, publishes, purchases, or contacts no one without an explicit yes. | [Open template](https://x.ai/bot/0lo4RPTbCpF6hG9bMKTKE) |
 | Programmer bot (title not set) | planned | Careful sketch. A mandatory diagnosis phase comes before any code change. No folder yet. | not published yet |
