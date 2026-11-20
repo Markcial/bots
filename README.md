@@ -53,6 +53,10 @@ Made by X [@marc_garcia](https://x.com/marc_garcia) (GitHub [Markcial](https://g
 
 Stage `launch` means the template is published and has a link. Stage `prepare` means the text and avatar exist and the videos are made or being made, but the template is not published yet.
 
+## Shared skills
+
+Skills that any bot can reuse, not tied to one template, live in [`skills/`](skills/README.md): a grilling interview, a bot designer, task identifiers, motion preproduction, a storyboard plausibility check, an explainer video pipeline and a multi-platform video publisher.
+
 ## How a template works
 
 Every bot here follows the same three steps:
