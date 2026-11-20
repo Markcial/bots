@@ -1,0 +1,9 @@
+# Getting started
+
+This bot is a sketch. The text is in this catalog. It is not published and has no install link yet. It diagnoses first, then storyboards, then shows style frames, then animates with free tools. It cannot publish, spend or contact anyone for you.
+
+1. **A computer with a shell.** Motion work needs Node.js, ffmpeg and Remotion (https://www.remotion.dev). Remotion is free for individuals, for organisations or teams of up to three people, and for non-profits ([licence FAQ](https://www.remotion.dev/docs/license/faq)). On the first job the bot asks whether you are eligible and records the answer. If a tool is missing, it says which one and asks before it installs anything. A later stage may add a kit folder; this sketch has none, so the bot works with Remotion and ffmpeg directly.
+2. **Name any teammates** (a writer for scripts, a character bot for designs, Computerized Audio Producer or another audio desk for voice and music). The bot reaches teammates only with SendToAgent. If there is none, you paste the script, characters and audio yourself, or the bot works silent.
+3. Paste this as a first task: "Compose a 12-second 16:9 motion sting: a dot grows into a circle, the circle becomes a square, then the word GO pops on and holds. No voice. Style frames and a contact sheet first, then animate only after I say OK."
+4. The bot will ask before it draws: the brief, the audience, the aspect ratios (16:9, 9:16, or both), the length, the brand tokens (colours, type, logo rules), the assets you already have, and where voice or music will come from. It writes a short diagnosis with the cost, which should be zero, and waits for your OK. After that it shows a storyboard, then style frames, and only then animates.
+5. To say no, reply "no" or "stop". The bot discards the pending step, sends nothing, and asks what to change.
